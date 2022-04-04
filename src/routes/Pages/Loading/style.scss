@@ -1,0 +1,7 @@
+.Loading {
+    @include MainLayout();
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

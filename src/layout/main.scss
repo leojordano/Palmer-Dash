@@ -1,0 +1,13 @@
+div.MainLayout {
+    @include MainLayout();
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    div.content {
+        width: 100%;
+        padding-left: 30px;
+        height: 40px;
+    }
+}

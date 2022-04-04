@@ -1,0 +1,67 @@
+div.dashboard {
+
+    div.tinyInfos {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        div.cardInfo {
+            flex: 1;
+            padding: 28px;
+            background-color: $mainGray;
+            margin: 0px 30px;
+            border-radius: 10px;
+            display: flex;
+            transition: all .3s;
+            cursor: pointer;
+            // max-width: 276px;
+            // max-height: 116px;
+
+            img {
+                margin-right: 23px;
+            }
+
+            div.infos {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: flex-start;
+
+                span.valor {
+                    font-family: 'Roboto', sans-serif;
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 22.78px;
+                    line-height: 30px;
+                    color: #FFFFFF;
+                    opacity: 0.7;
+                }
+
+                span.name {
+                    font-family: 'Roboto', sans-serif;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 14.22px;
+                    line-height: 19px;
+                    color: #FFFFFF;
+                    opacity: 0.7;
+                }
+
+            }
+
+            &:hover {
+                transform: scale(1.05);
+            }
+
+            &:nth-last-child(1) {
+                margin-right: 0px;
+            }
+
+            &:nth-child(1) {
+                margin-left: 0px;
+            }
+        }
+
+    } 
+
+}

@@ -1,0 +1,15 @@
+// GLOBALS
+@import './variables.scss';
+@import './resets.scss';
+@import './mixin.scss';
+
+// LAYOUT
+@import '../layout/main.scss';
+
+// COMPONENTS
+@import '../components/Sidebar/style.scss';
+@import '../components/PageHeader/style.scss';
+
+// PAGES
+@import '../routes/Pages/Dashboard/style.scss';
+@import '../routes/Pages/Loading/style.scss';
